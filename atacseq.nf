@@ -1,9 +1,5 @@
 #!/usr/bin/env nextflow
 
-params.reads = "./raw/*_{R1,R2}.fastq"
-params.genome = "/Shared/Bioinformatics/data/bcbio/genomes/Hsapiens/GRCh37/bwa/GRCh37.fa"
-params.bwa = '/Shared/Bioinformatics/data/bcbio/bin/bwa'
-
 genome = params.genome
 bwa = params.bwa
 
